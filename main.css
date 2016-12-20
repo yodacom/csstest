@@ -6,6 +6,10 @@
 
 html, body {
   height: 100%;
+  background: #555 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAB9JREFUeNpi/P//PwM6YGLAAuCCmpqacC2MRGsHCDAA+fIHfeQbO8kAAAAASUVORK5CYII=);
+  font: 13px 'Lucida sans', Arial, Helvetica;
+  color: #eee;
+  /*margin-left: 20px;*/
 }
 
 .header {
@@ -20,7 +24,7 @@ html, body {
    display: flex;
    flex-direction: row;
    align-items: flex-start;
-   border: 5px solid goldenrod;
+   /*border: 5px solid goldenrod;*/
    min-height: 100vh;
    min-width: 320px;
    max-width: 1220px;
@@ -37,8 +41,8 @@ html, body {
   height: 100vh;
   overflow: auto;
   flex:1;
-  background-color: #e46119;
-  border: 5px solid #626262;
+  /*background-color: #e46119;
+  border: 5px solid #626262;*/
   padding: 10px 0 0 10px;
   flex-direction:row;
   /*align-content: space-between;
@@ -55,7 +59,7 @@ html, body {
 
 .description {
   flex:1;
-  border: 5px solid red
+  /*border: 5px solid red*/
 
 }
 
@@ -64,7 +68,7 @@ html, body {
 }
 
 .thumb {
-  border: 5px solid green;
+  /*border: 5px solid green;*/
   max-width: 120px;
   max-height: 90px;
 
@@ -76,5 +80,5 @@ li {
   flex-direction: row;
   text-align:left;
   list-style-type:none;
-  border: 5px solid purple;
+  /*border: 5px solid purple;*/
 }
