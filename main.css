@@ -6,7 +6,6 @@
 
 html, body {
   height: 100%;
-  display: flex;
 }
 
 .header {
@@ -15,7 +14,6 @@ html, body {
 
 .videoPlayer {
   align-items: flex-start;
-
 }
 
 .flex-container {
@@ -37,6 +35,7 @@ html, body {
 
 .searchResults {
   height: 100vh;
+  overflow: auto;
   flex:1;
   background-color: #e46119;
   border: 5px solid #626262;
@@ -66,8 +65,8 @@ html, body {
 
 .thumb {
   border: 5px solid green;
-  max-width: 160px;
-  max-height: 93px;
+  max-width: 120px;
+  max-height: 90px;
 
 }
 
